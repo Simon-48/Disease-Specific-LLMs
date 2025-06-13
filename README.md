@@ -29,3 +29,5 @@ Improvements:
       1.	Developed a more effective approach to utilizing structured, tabular clinical datasets or EHR-derived tabular data within transformer-based Large Language Models (LLMs), addressing the initial incompatibility of LLMs with tabular data formats.
       
       2.	Proposed a paraphrasing-based method to correct class imbalance in structured, tabular clinical datasets or EHR-derived data by preserving the underlying medical semantics, especially for categorical features where each category carries distinct medical significance, making synthetic data generation challenging.
+
+**The codes are private.**
