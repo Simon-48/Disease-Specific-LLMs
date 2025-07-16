@@ -1,6 +1,6 @@
 # Disease-Specific-LLMs
 
-## An Approach to Convert Tabular Clinical Records into Clinical Texts for Effectively Tuning Disease-Specific LLMs
+## An Approach to Convert Tabular Clinical Records into Clinical Texts for Training Disease-Specific LLMs Effectively
 
 The key dataset of this study is from the National Institute of Cancer Research and Hospital (NICRH) on sarcoma cancer. As this is a private dataset, its information is not disclosed. Instead, information from a few public datasets—such as the UCI Heart Disease, UCI Heart Failure Clinical Records, and UCI Chronic Kidney Disease datasets—is provided. Kindly check the 'Results.docx' uploaded.
 
