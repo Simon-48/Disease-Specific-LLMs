@@ -30,4 +30,7 @@ Improvements:
       
       2.	Proposed a paraphrasing-based method to correct class imbalance in structured, tabular clinical datasets or EHR-derived data by preserving the underlying medical semantics, especially for categorical features where each category carries distinct medical significance, making synthetic data generation challenging.
 
+## Interpretability
+We use a simple gradient-based interpretability method to see which clinical words matter most for the model’s decision. After training GPT-2, we keep the model fixed and compute the gradient of the predicted score with respect to each input token’s embedding. The size of this gradient shows how sensitive the prediction is to that token—larger gradients mean the model relied more on it. By checking only medical keywords (like blood pressure, sugar, creatinine), we can highlight the clinical features that influenced the prediction most, giving a transparent, post-hoc explanation without changing the model.
+
 **The codes are private for Sarcoma cancer dataset from the National Institute of Cancer Research & Hospital (NICRH).**
