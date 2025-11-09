@@ -1,4 +1,4 @@
-# Disease-Specific-LLMs
+# Can GPT Think Like Traditional Machine Learning and Neural Networks on Low-Volume Clinical Data?
 
 ## An Approach to Convert Tabular Clinical Records into Clinical Texts for Training Disease-Specific LLMs Effectively
 
